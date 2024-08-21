@@ -31,7 +31,7 @@ long long maxSubarraySum(int arr[], int n) {
 
         sum += arr[i];
 
-        if (sum > maxi) {
+        if (sum > maxi) {   //note here sum>maxi not sum>0
             maxi = sum;
         }
 
